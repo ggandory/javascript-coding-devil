@@ -68,10 +68,11 @@ console.log(
   Boolean(NaN)
 );
 
-Boolean(0); //false
-Boolean("0"); //ture
-Boolean(""); //false
-Boolean(" "); //true
+Number(0); //false
+Number("0"); //ture
+
+Number(""); //false
+Number(" "); //true
 
 /**나머지(%)어디에 쓸까?
  * 홀수: x%2=1
