@@ -350,12 +350,3 @@ const jeng = {
 const jane = {
   name: "jane",
 };
-
-const supergirl = {
-  name: "jane",
-  age: 26,
-  fly() {
-    //fly:function(){} 이거랑 같음
-    console.log("날다");
-  },
-};
